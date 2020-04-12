@@ -5,13 +5,13 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>Carlos Montalvo</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hi! 👋🏼 I'm <a href="https://github.com/ZephiroRB" target="_blank">zEpHiRo</a>
+          Hi! 👋🏼 I'm <a href="https://github.com/ZephiroRB" target="_blank">Carlos Montalvo</a>
         </h1>
 
         <p className={styles.description}>
