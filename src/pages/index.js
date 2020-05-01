@@ -1,12 +1,14 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Layout, { siteTitle } from '../components/shared/Layout/index'
 
 export default function Home() {
   return (
+    <Layout>
+    
     <div className={styles.container}>
       <Head>
         <title>Carlos Montalvo</title>
-        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
@@ -31,5 +33,6 @@ export default function Home() {
         </a>
       </footer>
     </div>
+    </Layout>
   )
 }
