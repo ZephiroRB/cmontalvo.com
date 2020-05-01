@@ -5,11 +5,6 @@
  import NextDocument, { Html, Head, Main, NextScript } from "next/document";
 
  class MyMontalvoDoc extends NextDocument {
-   static async getInitialProps(ctx) {
-     const initialProps = await Document.getInitialProps(ctx)
-     return { ...initialProps }
-   }
- 
    render() {
      return (
        <Html lang="es">
@@ -23,4 +18,6 @@
    }
  }
  
+ MyMontalvoDoc.getInitialProps = (ctx) => NextDocument.getInitialProps(ctx)
+
  export default MyMontalvoDoc;
