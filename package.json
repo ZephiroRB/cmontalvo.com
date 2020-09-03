@@ -9,7 +9,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "production": "pm2 start npm --name "carlosmontalvo" -- start"
+    "production": "pm2 start npm --name 'carlosmontalvo' -- start"
   },
   "dependencies": {
     "next": "9.5.3",
