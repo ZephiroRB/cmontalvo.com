@@ -11,7 +11,7 @@ https://github.com/kristoferjoseph/flexboxgrid/blob/master/src/css/flexboxgrid.c
   --textOnPrimary: #FFFFFF;
   --textOnSecondary: #FFFFFF;
   --textSecondary: #58717d;
-  --codeBackground: #121212;
+  --codeBackground: #eeeeee;
 }
 
 
@@ -81,7 +81,7 @@ h6 {
 
 b,
 strong {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 p {
@@ -109,6 +109,29 @@ li {
   padding-right: .5rem;
   padding-left: .5rem;
 }
+
+article code {
+  font-family: Consolas,monospace;
+  white-space: pre-wrap;
+  font-weight: bold;
+  background: var(--codeBackground);
+}
+
+article img {
+  max-width: 100%;
+}
+article table td{
+  padding:0 15px;
+}
+article table td, article table th{
+  border: 1px solid;
+}
+article table td code{
+  white-space: pre;
+}
+
+
+
 
 .col-xs-12 {
   flex-basis: 100%;
