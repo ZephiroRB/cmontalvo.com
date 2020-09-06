@@ -1,9 +1,9 @@
 ---
-title: "Instalación .Net CLI y Creación Hola Mundo"
+title: "Instalación .Net CLI y Creación de 'Hola Mundo'"
 date: "2020-09-04"
 ---
 
-[.Net (CLI)](https://dotnet.microsoft.com/download/dotnet-core) La interfaz de línea de comandos para aplicaciones .Net, es una herramienta multiplataforma esencial para la creación, desarrollo, compilación y pulicacion en aplicaciones .NET. ¿Qué quiero decir con 'esencial'? Sencillo, cualquier persona o herramienta que quiera desarrollarse en la plataforma de Microsoft debe utilizar esta herramienta. Es la primera capa de desarrollo. 
+[.Net (CLI)](https://dotnet.microsoft.com/download/dotnet-core) La interfaz de línea de comandos para aplicaciones .Net, es una herramienta multiplataforma esencial para la creación, desarrollo, compilación y publicación en aplicaciones .NET. ¿Qué quiero decir con 'esencial'? Sencillo, cualquier persona o herramienta que quiera desarrollarse en la plataforma de Microsoft debe utilizar esta herramienta. Es la primera capa de desarrollo. 
 
 Visual Studio Community, o la version de pago ya incluye el CLI, si no puedes descargarlo desde [aqui](https://dotnet.microsoft.com/download/dotnet-core/3.1) y elegimos el sistema operativo que usamos y descargamos la version 64bits o 32bits segun corresponda.
 
@@ -29,13 +29,13 @@ Cada comando puede ir seguido de argumentos y opciones.
 
 | Sintaxis | Descripción |
 | --- | ----------- |
-| **dotnet new template -o carpeta** | Crea un proyecto .NET donde **template** es el tipo de aplicación .NET que queremos crear, si desea una lista completa de los templates disponibles ejecutar `dotnet new -i .\` y **carpeta** el nombre de a caperta a crear|
-|**dotnet run**| Ejecuta tu aplicación.|
-|**dotnet restore** | Restaura todos las dependencias que tenga su aplicación.|
-| **dotnet build** | Compila tu applicación para validar que no tiene errores.|
-| **dotnet test** | Ejecuta los tests de tu aplicación|
-| **dotnet publish** | Publica tu aplicación|
-| **dotnet pack** | creates a Nuget Packages.|
+| `dotnet new` | Crea un proyecto .NET, por ejemplo `dotnet new template -o carpeta` donde debemos usar un `template` que es el tipo de aplicación .NET que queremos crear, si desea una lista completa de los templates disponibles ejecutar `dotnet new -i .\` y `carpeta` el nombre de a caperta a crear|
+|`dotnet run`| Ejecuta tu aplicación.|
+|`dotnet restore` | Restaura todos las dependencias que tenga su aplicación.|
+| `dotnet build` | Compila tu applicación para validar que no tiene errores.|
+| `dotnet test` | Ejecuta los tests de tu aplicación|
+| `dotnet publish` | Publica tu aplicación|
+| `dotnet pack` | creates a Nuget Packages.|
 
 
 Creemos su primera aplicación, con el comando `dotnet new console -o firstapp_cmontalvo` donde **console** es una tipo de aplicación en .NET que se ejecuta desde terminal.
