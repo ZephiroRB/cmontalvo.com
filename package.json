@@ -1,6 +1,6 @@
 {
   "name": "cmontalvo.com",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "engines": {
     "node": "12"
   },
@@ -11,9 +11,23 @@
     "start": "next start",
     "production": "pm2 start npm --name 'carlosmontalvo' -- start"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZephiroRB/cmontalvo.com.git"
+  },
+  "author": "Carlos Montalvo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZephiroRB/cmontalvo.com/issues"
+  },
+  "homepage": "https://github.com/ZephiroRB/cmontalvo.com#readme",
   "dependencies": {
     "next": "9.5.3",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "date-fns": "^2.11.1",
+    "gray-matter": "^4.0.2",
+    "remark": "^12.0.0",
+    "remark-html": "^11.0.1"
   }
 }
