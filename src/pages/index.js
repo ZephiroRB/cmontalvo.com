@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import styles from "src/utils/theme/Home.module.css";
 import { getSortedPostsData } from "src/utils/api/blog";
-import Date from "src/components/shared/date";
+import Date from "src/components/shared/Date";
 import Link from "next/link";
 
 export default function Index({ allPostsData }) {

@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from 'src/components/shared/Layout'
 import { getAllPostSlugs, getPostData } from 'src/utils/api/blog'
-import Date from 'src/components/shared/date'
+import Date from 'src/components/shared/Date'
 import styles from "src/utils/theme/Home.module.css";
 
 export default function Post({ postData }) {
