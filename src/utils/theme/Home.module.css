@@ -1,5 +1,13 @@
+.wrapper {
+  height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
-  min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
@@ -8,13 +16,25 @@
 }
 
 .main {
-  padding: 5rem 0;
+  padding: 3rem 0;
+  padding-bottom: 0;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
+.section{
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 2rem 1.5em;
+}
+
+.h1_post{
+  margin-bottom: 0px;
+}
+
 
 .footer {
   width: 100%;

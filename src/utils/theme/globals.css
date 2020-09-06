@@ -1,0 +1,148 @@
+/**
+https://github.com/kristoferjoseph/flexboxgrid/blob/master/src/css/flexboxgrid.css
+**/
+
+:root {
+  --background: #FFFFFF;
+  --primary: #0070f3;
+  --secondary: #0086ff;
+  --shadowColor: rgba(0, 0, 0, 0.25);
+  --text: #1F282C;
+  --textOnPrimary: #FFFFFF;
+  --textOnSecondary: #FFFFFF;
+  --textSecondary: #58717d;
+  --codeBackground: #121212;
+}
+
+
+html,
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+::selection {
+  background: var(--secondary);
+  color: #fff;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+b,
+strong {
+  font-weight: 500;
+}
+
+p {
+  font-weight: 400;;
+}
+
+
+li {
+  margin: .5em;
+}
+
+.row {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: -.5rem;
+  margin-left: -.5rem;
+}
+
+.col-xs-12 {
+  box-sizing: border-box;
+  flex: 0 0 auto;
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
+
+.col-xs-12 {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.middle-xs {
+  align-items: center;
+}
+
+@media only screen and (min-width: 48em){
+  .col-sm-6 {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    padding-right: .5rem;
+    padding-left: .5rem;
+  }
+
+  .col-sm-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+}
+
+@media only screen and (min-width: 64em){
+  .col-md-4 {
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    padding-right: .5rem;
+    padding-left: .5rem;
+  }
+
+  .col-md-4 {
+    flex-basis: 33.33333333%;
+    max-width: 33.33333333%;
+  }
+}
